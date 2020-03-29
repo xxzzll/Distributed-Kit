@@ -1,6 +1,7 @@
 ## [zookeeper图谱](https://www.processon.com/view/link/5b46f930e4b07b023103bcaf#map)
 ## [鲁班学院架构师图谱](https://www.processon.com/view/link/5db53025e4b0893e9a654cda#map)
 
+## [baosi视频地址](https://www.bilibili.com/video/BV1JE41157Bp)
 ## CountDownLatch
 1. A synchronization aid that allows one or more threads to wait until a set of operations being performed in other threads completes.
    一种同步辅助，允许一个或多个线程等待，直到在在其他线程中一组操作被执行完成。
