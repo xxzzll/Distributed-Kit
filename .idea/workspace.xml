@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c45f48c-2f0c-433e-a009-c1a73dbfde30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/concurrent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock-demo01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/lock/OrderCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/lock/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/lock/ZookeeperImproveLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/lock/ZookeeperLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock-demo02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/limit/redis/AccessSpeedLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/limit/redis/AccessSpeedLimit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/limit/redis/LimitRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/limit/redis/LimitRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/Callback.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/Callback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/DistributedLockTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/DistributedLockTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/DistributedReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/DistributedReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/redis/RedisDistributedLockTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/redis/RedisDistributedLockTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/redis/RedisLockInternals.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/redis/RedisLockInternals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/redis/RedisReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/redis/RedisReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/zk/ZkDistributedLockTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/zk/ZkDistributedLockTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/zk/ZkReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/zk/ZkReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/zk/ZkReentrantLockCleanerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/zk/ZkReentrantLockCleanerTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/sequence/DistributedSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/sequence/DistributedSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/sequence/zk/ZkDistributedSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/sequence/zk/ZkDistributedSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/distributed/limit/redis/AccessSpeedLimitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/test/java/com/distributed/limit/redis/AccessSpeedLimitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/distributed/lock/redis/RedisReentrantLockTemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/test/java/com/distributed/lock/redis/RedisReentrantLockTemplateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/distributed/lock/redis/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/test/java/com/distributed/lock/redis/SimpleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/distributed/lock/zk/ZkReentrantLockTemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/test/java/com/distributed/lock/zk/ZkReentrantLockTemplateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/test/resources/logback.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="/usr/local/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZlJBXvCsEJycuzncIZZUWsItqZ" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lock-demo02/src/test/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25839794" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.huawei.lock" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lock-demo02/src/test/java" />
+      <recent name="$PROJECT_DIR$/lock-demo02/src/test" />
+      <recent name="$PROJECT_DIR$/lock-demo02/src/main/java" />
+      <recent name="$PROJECT_DIR$/lock-demo01/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.OrderServiceImpl">
+    <configuration name="OrderCodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huawei.lock.OrderCodeGenerator" />
+      <module name="lock-demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huawei.lock.OrderServiceImpl" />
+      <module name="lock-demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huawei.test.Test" />
+      <module name="lock-demo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZkReentrantLockTemplateTest.testTry (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lock-demo02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.distributed.lock.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.distributed.lock.zk" />
+      <option name="MAIN_CLASS_NAME" value="com.distributed.lock.zk.ZkReentrantLockTemplateTest" />
+      <option name="METHOD_NAME" value="testTry" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZkReentrantLockTemplateTest.testTry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Distributed-Kit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.distributed.lock.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.distributed.lock.zk" />
+      <option name="MAIN_CLASS_NAME" value="com.distributed.lock.zk.ZkReentrantLockTemplateTest" />
+      <option name="METHOD_NAME" value="testTry" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.OrderCodeGenerator" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.ZkReentrantLockTemplateTest.testTry" />
+      <item itemvalue="Application.OrderServiceImpl" />
+      <item itemvalue="JUnit.ZkReentrantLockTemplateTest.testTry (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OrderServiceImpl" />
+        <item itemvalue="JUnit.ZkReentrantLockTemplateTest.testTry (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.OrderCodeGenerator" />
+        <item itemvalue="JUnit.ZkReentrantLockTemplateTest.testTry" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c45f48c-2f0c-433e-a009-c1a73dbfde30" name="Default Changelist" comment="" />
+      <created>1585407611463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585407611463</updated>
+      <workItem from="1585407615330" duration="760000" />
+      <workItem from="1585408396137" duration="20965000" />
+      <workItem from="1585473918525" duration="13175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/lock/OrderServiceImpl.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/lock/OrderServiceImpl.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/lock/OrderServiceImpl.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

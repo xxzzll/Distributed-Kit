@@ -1,0 +1,22 @@
+09:35:41 [ZkClient-EventThread-10-172.17.0.3:2181] INFO  o.I0Itec.zkclient.ZkEventThread - Starting ZkClient event thread.
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:host.name=aspire
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.version=1.8.0_192
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.home=/usr/local/jdk1.8.0_192/jre
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.class.path=/usr/local/jdk1.8.0_192/jre/lib/charsets.jar:/usr/local/jdk1.8.0_192/jre/lib/deploy.jar:/usr/local/jdk1.8.0_192/jre/lib/ext/cldrdata.jar:/usr/local/jdk1.8.0_192/jre/lib/ext/dnsns.jar:/usr/local/jdk1.8.0_192/jre/lib/ext/jaccess.jar:/usr/local/jdk1.8.0_192/jre/lib/ext/jfxrt.jar:/usr/local/jdk1.8.0_192/jre/lib/ext/localedata.jar:/usr/local/jdk1.8.0_192/jre/lib/ext/nashorn.jar:/usr/local/jdk1.8.0_192/jre/lib/ext/sunec.jar:/usr/local/jdk1.8.0_192/jre/lib/ext/sunjce_provider.jar:/usr/local/jdk1.8.0_192/jre/lib/ext/sunpkcs11.jar:/usr/local/jdk1.8.0_192/jre/lib/ext/zipfs.jar:/usr/local/jdk1.8.0_192/jre/lib/javaws.jar:/usr/local/jdk1.8.0_192/jre/lib/jce.jar:/usr/local/jdk1.8.0_192/jre/lib/jfr.jar:/usr/local/jdk1.8.0_192/jre/lib/jfxswt.jar:/usr/local/jdk1.8.0_192/jre/lib/jsse.jar:/usr/local/jdk1.8.0_192/jre/lib/management-agent.jar:/usr/local/jdk1.8.0_192/jre/lib/plugin.jar:/usr/local/jdk1.8.0_192/jre/lib/resources.jar:/usr/local/jdk1.8.0_192/jre/lib/rt.jar:/home/xixi/gitRepository/Distributed-Kit/lock-demo01/target/classes:/home/xixi/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/xixi/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar:/home/xixi/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar:/home/xixi/.m2/repository/com/101tec/zkclient/0.10/zkclient-0.10.jar:/home/xixi/.m2/repository/org/apache/zookeeper/zookeeper/3.4.8/zookeeper-3.4.8.jar:/home/xixi/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/home/xixi/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/home/xixi/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/opt/intellij-idea-ultimate/lib/idea_rt.jar
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.name=Linux
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:os.version=4.15.0-91-generic
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.name=xixi
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.home=/home/xixi
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Client environment:user.dir=/home/xixi/gitRepository/Distributed-Kit
+09:35:41 [main] INFO  org.apache.zookeeper.ZooKeeper - Initiating client connection, connectString=172.17.0.3:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@5a39699c
+09:35:41 [main-SendThread(172.17.0.3:2181)] INFO  org.apache.zookeeper.ClientCnxn - Opening socket connection to server 172.17.0.3/172.17.0.3:2181. Will not attempt to authenticate using SASL (unknown error)
+09:35:41 [main] INFO  org.I0Itec.zkclient.ZkClient - Waiting for keeper state SyncConnected
+09:35:41 [main-SendThread(172.17.0.3:2181)] INFO  org.apache.zookeeper.ClientCnxn - Socket connection established to 172.17.0.3/172.17.0.3:2181, initiating session
+09:35:41 [main-SendThread(172.17.0.3:2181)] INFO  org.apache.zookeeper.ClientCnxn - Session establishment complete on server 172.17.0.3/172.17.0.3:2181, sessionid = 0x100031848dc005f, negotiated timeout = 30000
+09:35:41 [main-EventThread] INFO  org.I0Itec.zkclient.ZkClient - zookeeper state changed (SyncConnected)
