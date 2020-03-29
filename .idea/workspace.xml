@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c45f48c-2f0c-433e-a009-c1a73dbfde30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/concurrent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock-demo01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/lock/OrderCodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/lock/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/lock/ZookeeperImproveLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/lock/ZookeeperLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/java/com/huawei/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock-demo01/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lock-demo02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/limit/redis/AccessSpeedLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/limit/redis/AccessSpeedLimit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/limit/redis/LimitRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/limit/redis/LimitRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/Callback.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/Callback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/DistributedLockTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/DistributedLockTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/DistributedReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/DistributedReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/redis/RedisDistributedLockTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/redis/RedisDistributedLockTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/redis/RedisLockInternals.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/redis/RedisLockInternals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/redis/RedisReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/redis/RedisReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/zk/ZkDistributedLockTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/zk/ZkDistributedLockTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/zk/ZkReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/zk/ZkReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/lock/zk/ZkReentrantLockCleanerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/lock/zk/ZkReentrantLockCleanerTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/sequence/DistributedSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/sequence/DistributedSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/distributed/sequence/zk/ZkDistributedSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/main/java/com/distributed/sequence/zk/ZkDistributedSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/distributed/limit/redis/AccessSpeedLimitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/test/java/com/distributed/limit/redis/AccessSpeedLimitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/distributed/lock/redis/RedisReentrantLockTemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/test/java/com/distributed/lock/redis/RedisReentrantLockTemplateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/distributed/lock/redis/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/test/java/com/distributed/lock/redis/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/distributed/lock/zk/ZkReentrantLockTemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/test/java/com/distributed/lock/zk/ZkReentrantLockTemplateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo02/src/test/resources/logback.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9c45f48c-2f0c-433e-a009-c1a73dbfde30" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,8 +172,8 @@
     <list>
       <item itemvalue="Application.OrderCodeGenerator" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.ZkReentrantLockTemplateTest.testTry" />
       <item itemvalue="Application.OrderServiceImpl" />
+      <item itemvalue="JUnit.ZkReentrantLockTemplateTest.testTry" />
       <item itemvalue="JUnit.ZkReentrantLockTemplateTest.testTry (1)" />
     </list>
     <recent_temporary>
@@ -228,7 +198,7 @@
       <updated>1585407611463</updated>
       <workItem from="1585407615330" duration="760000" />
       <workItem from="1585408396137" duration="20965000" />
-      <workItem from="1585473918525" duration="13175000" />
+      <workItem from="1585473918525" duration="13239000" />
     </task>
     <servers />
   </component>
